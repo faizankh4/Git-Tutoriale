@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     
         print("new value is\(String(describing: reverse("faizan")))")
     
+       print("add this")
+    
     }
 
     func reverse(_ text:String) -> String? {
