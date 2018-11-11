@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lblTest: UILabel!
     let message = "Hello git"
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +19,9 @@ class ViewController: UIViewController {
     
         print("new value is\(String(describing: reverse("faizan")))")
     
-       print("add this")
+        lblTest.text = reverse("faizan")
+        
+        print("add this")
     
     }
 
