@@ -15,6 +15,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
        print("value is\(message)")
+    
+        print("new value is\(String(describing: reverse("faizan")))")
+    
+    }
+
+    func reverse(_ text:String) -> String? {
+        
+       return String(text.reversed())
     }
 
 
