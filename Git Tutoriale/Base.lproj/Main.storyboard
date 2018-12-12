@@ -19,7 +19,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0t-kA-4sf">
-                                <rect key="frame" x="166.5" y="333" width="42" height="21"/>
+                                <rect key="frame" x="158" y="291" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="push To remote" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAO-XW-RDv">
+                                <rect key="frame" x="0.0" y="357" width="375" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.1903423434" blue="0.065165315390000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="TvG-Kc-YnL"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -27,8 +37,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="I0t-kA-4sf" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="8hV-sn-6cy"/>
-                            <constraint firstItem="I0t-kA-4sf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="tK1-kB-1Xp"/>
+                            <constraint firstItem="HAO-XW-RDv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0vr-Sc-o4c"/>
+                            <constraint firstItem="HAO-XW-RDv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2aI-1p-fZp"/>
+                            <constraint firstItem="I0t-kA-4sf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="158" id="XAf-YQ-i26"/>
+                            <constraint firstItem="I0t-kA-4sf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="271" id="bJX-Hm-bg4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HAO-XW-RDv" secondAttribute="bottom" constant="280" id="pUL-dl-26f"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I0t-kA-4sf" secondAttribute="trailing" constant="175" id="uVP-Va-mxP"/>
+                            <constraint firstItem="HAO-XW-RDv" firstAttribute="top" secondItem="I0t-kA-4sf" secondAttribute="bottom" constant="45" id="xwp-cN-n5U"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -38,6 +53,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>
