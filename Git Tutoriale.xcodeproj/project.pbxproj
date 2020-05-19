@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A84B0B72247439D500153FE0 /* TableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84B0B71247439D500153FE0 /* TableViewController2.swift */; };
 		A8B9DEDB247435A1007DB7CF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B9DEDA247435A1007DB7CF /* TableViewController.swift */; };
 		D13F4C3521981B9200994F43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13F4C3421981B9200994F43 /* AppDelegate.swift */; };
 		D13F4C3721981B9200994F43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13F4C3621981B9200994F43 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A84B0B71247439D500153FE0 /* TableViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController2.swift; sourceTree = "<group>"; };
 		A8B9DEDA247435A1007DB7CF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		D13F4C3121981B9200994F43 /* Git Tutoriale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Tutoriale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D13F4C3421981B9200994F43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				D13F4C4021981B9400994F43 /* Info.plist */,
 				D186ED3C221C28DE002A3963 /* ViewController2.swift */,
 				A8B9DEDA247435A1007DB7CF /* TableViewController.swift */,
+				A84B0B71247439D500153FE0 /* TableViewController2.swift */,
 			);
 			path = "Git Tutoriale";
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				D186ED3B221BD3AF002A3963 /* ViewController1.swift in Sources */,
 				D186ED3D221C28DE002A3963 /* ViewController2.swift in Sources */,
+				A84B0B72247439D500153FE0 /* TableViewController2.swift in Sources */,
 				D13F4C3721981B9200994F43 /* ViewController.swift in Sources */,
 				A8B9DEDB247435A1007DB7CF /* TableViewController.swift in Sources */,
 				D13F4C3521981B9200994F43 /* AppDelegate.swift in Sources */,
